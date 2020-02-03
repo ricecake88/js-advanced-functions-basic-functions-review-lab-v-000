@@ -33,8 +33,5 @@ function actionApplyer(strt_integer, array_of_functions){
     return strt_integer;
   } else {
     return array_of_functions[2](array_of_functions[1](array_of_functions[0](strt_integer, 2)));
-    this.add = function(num1, num2) {
-      return num1 + num2;
-    }
   }
-};
+}
