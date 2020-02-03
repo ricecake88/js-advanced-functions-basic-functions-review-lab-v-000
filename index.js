@@ -28,7 +28,7 @@ const Calculator = {
   }
 };
 
-function actionApplyer(strt_integer, array_of_functions) {
+function actionApplyer(strt_integer, array_of_functions){
   if (!Array.isArray(array_of_functions) || (!array_of_functions.length)) {
     return strt_integer;
   } else {
